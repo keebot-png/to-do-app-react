@@ -1,0 +1,13 @@
+import './App.css';
+// import TypeInput from './components/TypeInput';
+import TodoContainer from './components/TodoContainer';
+
+function App() {
+  return (
+    <div className="App">
+      <TodoContainer />
+    </div>
+  );
+}
+
+export default App;
